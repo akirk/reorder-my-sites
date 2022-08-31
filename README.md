@@ -2,7 +2,7 @@
 
 For WordPress Multisite. Reorders the My Sites dropdown menu in the Admin Bar alphabetically. It keeps the main blog at the top.
 
-**Contributors:** ericjuden
+**Contributors:** ericjuden, akirk
 **Tags:** wordpress, multisite, wpmu, blogs, sites, my sites, dashboard, reorder, order
 **Requires at least:** 3.3
 **Requires PHP:** 5.6
@@ -23,6 +23,9 @@ For WordPress Multisite. Reorders the My Sites dropdown menu in the Admin Bar al
 3. Look at list of sites in Admin Bar, they should be in alphabetical order (except for the main site).
 
 ## Changelog
+
+### 1.2.2
+* Fix PHP 7 deprecations
 
 ### 1.2.1
 * Fixing issue where the top site shows as a blank line
